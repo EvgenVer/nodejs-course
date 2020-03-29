@@ -19,6 +19,18 @@ function parse_arg() {
     process.exit(13);
   }
 
+  if (!(arg.act === 'encode' || arg.act === 'decode')) {
+    process.stderr.write('Error: The value of parameter -a/--act is not valid');
+    process.exit(12);
+  }
+
+  if (isNaN(Number(arg.shift))) {
+    process.stderr.write(
+      'Error: The value of parameter -s/--shift is not valid'
+    );
+    process.exit(14);
+  }
+
   if (arg.input) {
     const filePath = path.resolve(arg.input);
     try {
