@@ -1,5 +1,6 @@
 ## Task 1. Caesar cipher CLI tool
 
+When starting from the caesar-cipher-cli directory, use the command:
 ```
 node caesar_cli -a encode -s 5 --input './input.txt' --output './output.txt'
 ```
