@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "name": "Minsk",
+    "isCapital": true
+  },
+  {
+    "id": 1,
+    "name": "New-York",
+    "isCapital": false
+  },
+  {
+    "id": 2,
+    "name": "LA",
+    "isCapital": false
+  }
+]
