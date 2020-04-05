@@ -1,17 +1,65 @@
 [
   {
     "id": "1",
-    "title": "first board",
-    "columns": ["plan", "development", "testing"]
+    "title": "some board",
+    "columns": [
+      {
+        "id": "1",
+        "title": "plan",
+        "order": 0
+      },
+      {
+        "id": "2",
+        "title": "development",
+        "order": 1
+      },
+      {
+        "id": "3",
+        "title": "testing",
+        "order": 2
+      }
+    ]
   },
   {
     "id": "2",
-    "title": "second board",
-    "columns": ["plan", "development", "testing"]
+    "title": "some board",
+    "columns": [
+      {
+        "id": "1",
+        "title": "plan",
+        "order": 0
+      },
+      {
+        "id": "2",
+        "title": "development",
+        "order": 1
+      },
+      {
+        "id": "3",
+        "title": "testing",
+        "order": 2
+      }
+    ]
   },
   {
     "id": "3",
     "title": "some board",
-    "columns": ["plan", "development", "testing"]
+    "columns": [
+      {
+        "id": "1",
+        "title": "plan",
+        "order": 0
+      },
+      {
+        "id": "2",
+        "title": "development",
+        "order": 1
+      },
+      {
+        "id": "3",
+        "title": "testing",
+        "order": 2
+      }
+    ]
   }
 ]

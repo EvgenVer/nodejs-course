@@ -1,20 +1,20 @@
-const User = require('./user.model');
-const usersRepo = require('./user.memory.repository');
+const Board = require('./board.model');
+const boardsRepo = require('./board.memory.repository');
 
 const getAll = async (req, res) => {
-  const users = await usersRepo.getAll();
-  res.json(users.map(User.toResponse));
+  const boards = await boardsRepo.getAll();
+  res.json(boards);
 };
 
 const getByID = async (req, res) => {
   try {
-    const user = await usersRepo.getByID(req.params.id);
-    if (!user) {
+    const board = await boardsRepo.getByID(req.params.id);
+    if (!board) {
       res.status(404);
       res.end();
       return;
     }
-    res.json(User.toResponse(user));
+    res.json(board);
   } catch (error) {
     console.log(error);
     res.status(400);
@@ -22,16 +22,16 @@ const getByID = async (req, res) => {
   }
 };
 
-const postUser = async (req, res) => {
+const postBoard = async (req, res) => {
   try {
-    const user = new User(req.body);
-    if (!user) {
+    const board = new Board.Board(req.body);
+    if (!board) {
       res.status(400);
       res.end('Bad request');
       return;
     }
-    await usersRepo.addUser(user);
-    res.json(User.toResponse(user));
+    await boardsRepo.addBoard(board);
+    res.json(board);
   } catch (error) {
     console.log(error);
     res.status(500);
@@ -39,15 +39,15 @@ const postUser = async (req, res) => {
   }
 };
 
-const putUser = async (req, res) => {
+const putBoard = async (req, res) => {
   try {
-    const user = await usersRepo.changeUser(req.params.id, req.body);
-    if (!user) {
+    const board = await boardsRepo.changeBoard(req.params.id, req.body);
+    if (!board) {
       res.status(404);
       res.end();
       return;
     }
-    res.json(User.toResponse(user));
+    res.json(board);
   } catch (error) {
     console.log(error);
     res.status(500);
@@ -55,9 +55,9 @@ const putUser = async (req, res) => {
   }
 };
 
-const delUser = async (req, res) => {
+const delBoard = async (req, res) => {
   try {
-    const result = await usersRepo.deleteUser(req.params.id);
+    const result = await boardsRepo.deleteBoard(req.params.id);
     if (result) {
       res.status(404);
       res.end();
@@ -72,4 +72,4 @@ const delUser = async (req, res) => {
   }
 };
 
-module.exports = { getAll, getByID, postUser, putUser, delUser };
+module.exports = { getAll, getByID, postBoard, putBoard, delBoard };

@@ -16,11 +16,5 @@
         "name": "John",
         "login": "John3",
         "password": "789"
-    },
-    {
-        "id": "8b8f9ef8-acab-4c0d-997c-fa1a68a10503",
-        "name": "TEST_USER",
-        "login": "test_user",
-        "password": "T35t_P@55w0rd"
     }
 ]
