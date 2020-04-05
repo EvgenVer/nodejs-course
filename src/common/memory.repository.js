@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable guard-for-in */
 const fs = require('fs');
 const util = require('util');
@@ -29,7 +30,7 @@ const addData = async (obj, pathToData) => {
 const changeData = async (id, obj, pathToData) => {
   const data = await getAll(pathToData);
   const index = data.findIndex(item => item.id === id);
-  for (const prop in data[index]) {
+  for (prop in data[index]) {
     data[index][prop] = obj[prop];
   }
   setData(data, pathToData);
