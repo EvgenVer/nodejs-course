@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const boardsService = require('./board.services');
-// const taskRouter = require('../tasks/task.router');
+const tasksService = require('../tasks/task.services');
 
 router.get('/', boardsService.getAll);
 
@@ -12,9 +12,14 @@ router.put('/:id', boardsService.putBoard);
 
 router.delete('/:id', boardsService.delBoard);
 
-router.get('/:id/tasks/:id1', (req, res) => {
-  console.log(req.params);
-  res.end();
-});
+router.get('/:boardId/tasks', tasksService.getAll);
+
+router.get('/:boardId/tasks/:id', tasksService.getByID);
+
+router.post('/:boardId/tasks', tasksService.postTask);
+
+router.put('/:boardId/tasks/:id', tasksService.putTask);
+
+router.delete('/:boardId/tasks/:id', tasksService.delTask);
 
 module.exports = router;
