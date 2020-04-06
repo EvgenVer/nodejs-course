@@ -1,15 +1,15 @@
 [
     {
-        "id": "a17e562e-af62-4ec6-b7e3-b786ef0de088",
+        "id": "ab421d0a-0437-4566-ba9d-bc906d49c1fe",
         "title": "Autotest board",
         "columns": [
             {
-                "id": "7597f8bd-f55f-4d73-9853-3653d9aa4eaf",
+                "id": "cc83b834-d4f5-4130-8877-897f502f8d91",
                 "title": "Backlog",
                 "order": 1
             },
             {
-                "id": "777d4388-dedd-4f53-8bd6-b060dd2d7ae0",
+                "id": "c200b588-14aa-4a60-a8bd-bfc9a00c56a6",
                 "title": "Sprint",
                 "order": 2
             }
