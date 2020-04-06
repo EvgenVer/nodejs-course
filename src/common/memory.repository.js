@@ -38,10 +38,24 @@ const changeData = async (id, obj, pathToData) => {
 };
 
 const deleteData = async (id, pathToData) => {
-  const users = await getAll(pathToData);
-  const newUsers = users.filter(item => item.id !== id);
-  setData(newUsers, pathToData);
-  return users.length === newUsers.length;
+  const data = await getAll(pathToData);
+  const newData = data.filter(item => item.id !== id);
+  setData(newData, pathToData);
+  return data.length === newData.length;
 };
 
-module.exports = { getAll, getByID, addData, changeData, deleteData };
+const deleteTaskData = async (boardId, pathToData) => {
+  const data = await getAll(pathToData);
+  const newData = data.filter(item => item.boardId !== boardId);
+  setData(newData, pathToData);
+  return data.length === newData.length;
+};
+
+module.exports = {
+  getAll,
+  getByID,
+  addData,
+  changeData,
+  deleteData,
+  deleteTaskData
+};

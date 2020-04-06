@@ -67,7 +67,7 @@ const delBoard = async (req, res) => {
     res.end('The user has been deleted');
   } catch (error) {
     console.log(error);
-    res.status(500);
+    res.status(502);
     res.end('Smth went wrong');
   }
 };
