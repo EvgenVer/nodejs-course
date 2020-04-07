@@ -48,6 +48,7 @@ const deleteTaskData = async (boardId, pathToData) => {
   const data = await getAll(pathToData);
   const newData = data.filter(item => item.boardId !== boardId);
   setData(newData, pathToData);
+  console.log(newData.findIndex(item => item.boardId === boardId));
   return data.length === newData.length;
 };
 

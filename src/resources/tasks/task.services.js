@@ -3,7 +3,7 @@ const tasksRepo = require('./task.memory.repository');
 
 const getAll = async (req, res) => {
   const tasks = await tasksRepo.getAll();
-  res.json(tasks.map(Task.toResponse));
+  res.json(tasks);
 };
 
 const getByID = async (req, res) => {
@@ -14,7 +14,7 @@ const getByID = async (req, res) => {
       res.end();
       return;
     }
-    res.json(Task.toResponse(task));
+    res.status(200).json(task);
   } catch (error) {
     console.log(error);
     res.status(400);
@@ -24,9 +24,8 @@ const getByID = async (req, res) => {
 
 const postTask = async (req, res) => {
   try {
-    const boardId = req.params['boardId'];
     const task = new Task(req.body);
-    task.boardId = boardId;
+    task.boardId = req.boardId;
     if (!task) {
       res.status(400);
       res.end('Bad request');

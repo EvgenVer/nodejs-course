@@ -58,13 +58,14 @@ const putBoard = async (req, res) => {
 const delBoard = async (req, res) => {
   try {
     const result = await boardsRepo.deleteBoard(req.params.id);
+    await boardsRepo.deleteRelativeTask(req.params.id);
     if (result) {
       res.status(404);
       res.end();
       return;
     }
     res.status(204);
-    res.end('The user has been deleted');
+    res.end('The board has been deleted');
   } catch (error) {
     console.log(error);
     res.status(502);
