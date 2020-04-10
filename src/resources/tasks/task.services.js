@@ -1,76 +1,31 @@
 const Task = require('./task.model');
 const tasksRepo = require('./task.memory.repository');
 
-const getAll = async (req, res) => {
-  const tasks = await tasksRepo.getAll();
-  res.json(tasks);
+const getAll = async () => await tasksRepo.getAll();
+
+const getByID = async id => await tasksRepo.getByID(id);
+
+const postTask = async (data, boardId) => {
+  const task = new Task(data);
+  task.boardId = boardId;
+  await tasksRepo.postTask(task);
+  return task;
 };
 
-const getByID = async (req, res) => {
-  try {
-    const task = await tasksRepo.getByID(req.params.id);
-    if (!task) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.status(200).json(task);
-  } catch (error) {
-    console.log(error);
-    res.status(400);
-    res.end('smth went wrong');
-  }
-};
+const putTask = async (id, obj) => await tasksRepo.putTask(id, obj);
 
-const postTask = async (req, res) => {
-  try {
-    const task = new Task(req.body);
-    task.boardId = req.boardId;
-    if (!task) {
-      res.status(400);
-      res.end('Bad request');
-      return;
-    }
-    await tasksRepo.addTask(task);
-    res.json(task);
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
-  }
-};
+const deleteTask = async id => await tasksRepo.deleteTask(id);
 
-const putTask = async (req, res) => {
-  try {
-    const task = await tasksRepo.changeTask(req.params.id, req.body);
-    if (!task) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.json(task);
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
-  }
-};
+const removeByBoardID = async id => await tasksRepo.deleteTaskByBoardId(id);
 
-const delTask = async (req, res) => {
-  try {
-    const result = await tasksRepo.deleteTask(req.params.id);
-    if (result) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.status(204);
-    res.end('The user has been deleted');
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
-  }
-};
+const assigneeTask = async userId => await tasksRepo.assigneeTask(userId);
 
-module.exports = { getAll, getByID, postTask, putTask, delTask };
+module.exports = {
+  getAll,
+  getByID,
+  postTask,
+  putTask,
+  deleteTask,
+  removeByBoardID,
+  assigneeTask
+};

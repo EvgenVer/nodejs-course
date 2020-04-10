@@ -1,76 +1,23 @@
 const Board = require('./board.model');
 const boardsRepo = require('./board.memory.repository');
+const taskServices = require('../tasks/task.services');
 
-const getAll = async (req, res) => {
-  const boards = await boardsRepo.getAll();
-  res.json(boards);
+const getAll = async () => await boardsRepo.getAll();
+
+const getByID = async id => await boardsRepo.getByID(id);
+
+const postBoard = async data => {
+  const board = new Board.Board(data);
+  await boardsRepo.postBoard(board);
+  return board;
 };
 
-const getByID = async (req, res) => {
-  try {
-    const board = await boardsRepo.getByID(req.params.id);
-    if (!board) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.json(board);
-  } catch (error) {
-    console.log(error);
-    res.status(400);
-    res.end('smth went wrong');
-  }
+const putBoard = async (id, obj) => await boardsRepo.putBoard(id, obj);
+
+const deleteBoard = async id => {
+  const result = await boardsRepo.deleteBoard(id);
+  if (result) await taskServices.removeByBoardID(id);
+  return result;
 };
 
-const postBoard = async (req, res) => {
-  try {
-    const board = new Board.Board(req.body);
-    if (!board) {
-      res.status(400);
-      res.end('Bad request');
-      return;
-    }
-    await boardsRepo.addBoard(board);
-    res.json(board);
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
-  }
-};
-
-const putBoard = async (req, res) => {
-  try {
-    const board = await boardsRepo.changeBoard(req.params.id, req.body);
-    if (!board) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.json(board);
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
-  }
-};
-
-const delBoard = async (req, res) => {
-  try {
-    const result = await boardsRepo.deleteBoard(req.params.id);
-    await boardsRepo.deleteRelativeTask(req.params.id);
-    if (result) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.status(204);
-    res.end('The board has been deleted');
-  } catch (error) {
-    console.log(error);
-    res.status(502);
-    res.end('Smth went wrong');
-  }
-};
-
-module.exports = { getAll, getByID, postBoard, putBoard, delBoard };
+module.exports = { getAll, getByID, postBoard, putBoard, deleteBoard };

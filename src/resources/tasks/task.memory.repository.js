@@ -1,16 +1,47 @@
-const path = require('path');
-const memory = require('../../common/memory.repository');
+let tasksData = [];
 
-const pathToTasks = path.join(__dirname, '../../common/moc_data/task.json');
+const getAll = () => tasksData;
 
-const getAll = () => memory.getAll(pathToTasks);
+const getByID = id => {
+  return tasksData.find(task => task.id === id);
+};
 
-const getByID = id => memory.getByID(id, pathToTasks);
+const postTask = obj => {
+  tasksData.push(obj);
+};
 
-const addTask = obj => memory.addData(obj, pathToTasks);
+const putTask = (id, obj) => {
+  const index = tasksData.findIndex(item => item.id === id);
+  if (index !== -1) {
+    tasksData[index] = { ...obj };
+    return tasksData[index];
+  }
+};
 
-const changeTask = (id, obj) => memory.changeData(id, obj, pathToTasks);
+const deleteTask = id => {
+  const index = tasksData.findIndex(item => item.id === id);
+  if (index !== -1) {
+    tasksData.splice(index, 1);
+    return true;
+  }
+};
 
-const deleteTask = id => memory.deleteData(id, pathToTasks);
+const deleteTaskByBoardId = id => {
+  tasksData = tasksData.filter(item => item.boardId !== id);
+};
 
-module.exports = { getAll, getByID, addTask, changeTask, deleteTask };
+const assigneeTask = userId => {
+  tasksData.forEach(item => {
+    if (item.userId === userId) item.userId = null;
+  });
+};
+
+module.exports = {
+  getAll,
+  getByID,
+  postTask,
+  putTask,
+  deleteTask,
+  deleteTaskByBoardId,
+  assigneeTask
+};

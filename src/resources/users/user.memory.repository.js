@@ -1,16 +1,29 @@
-const path = require('path');
-const memory = require('../../common/memory.repository');
+const usersData = [];
 
-const pathToUsers = path.join(__dirname, '../../common/moc_data/users.json');
+const getAll = () => usersData;
 
-const getAll = () => memory.getAll(pathToUsers);
+const getByID = id => {
+  return usersData.find(user => user.id === id);
+};
 
-const getByID = id => memory.getByID(id, pathToUsers);
+const postUser = obj => {
+  usersData.push(obj);
+};
 
-const addUser = obj => memory.addData(obj, pathToUsers);
+const putUser = (id, obj) => {
+  const index = usersData.findIndex(item => item.id === id);
+  if (index !== -1) {
+    usersData[index] = { ...obj };
+    return usersData[index];
+  }
+};
 
-const changeUser = (id, obj) => memory.changeData(id, obj, pathToUsers);
+const deleteUser = id => {
+  const index = usersData.findIndex(item => item.id === id);
+  if (index !== -1) {
+    usersData.splice(index, 1);
+    return true;
+  }
+};
 
-const deleteUser = id => memory.deleteData(id, pathToUsers);
-
-module.exports = { getAll, getByID, addUser, changeUser, deleteUser };
+module.exports = { getAll, getByID, postUser, putUser, deleteUser };

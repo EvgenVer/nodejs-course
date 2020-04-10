@@ -1,75 +1,32 @@
 const User = require('./user.model');
 const usersRepo = require('./user.memory.repository');
+const taskServices = require('../tasks/task.services');
 
-const getAll = async (req, res) => {
+const getAll = async () => {
   const users = await usersRepo.getAll();
-  res.json(users.map(User.toResponse));
+  return users.map(User.toResponse);
 };
 
-const getByID = async (req, res) => {
-  try {
-    const user = await usersRepo.getByID(req.params.id);
-    if (!user) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.json(User.toResponse(user));
-  } catch (error) {
-    console.log(error);
-    res.status(400);
-    res.end('smth went wrong');
-  }
+const getByID = async id => {
+  const user = await usersRepo.getByID(id);
+  return User.toResponse(user);
 };
 
-const postUser = async (req, res) => {
-  try {
-    const user = new User(req.body);
-    if (!user) {
-      res.status(400);
-      res.end('Bad request');
-      return;
-    }
-    await usersRepo.addUser(user);
-    res.json(User.toResponse(user));
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
-  }
+const postUser = async data => {
+  const user = new User(data);
+  await usersRepo.postUser(user);
+  return User.toResponse(user);
 };
 
-const putUser = async (req, res) => {
-  try {
-    const user = await usersRepo.changeUser(req.params.id, req.body);
-    if (!user) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.json(User.toResponse(user));
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
-  }
+const putUser = async (id, obj) => {
+  const user = await usersRepo.putUser(id, obj);
+  return User.toResponse(user);
 };
 
-const delUser = async (req, res) => {
-  try {
-    const result = await usersRepo.deleteUser(req.params.id);
-    if (result) {
-      res.status(404);
-      res.end();
-      return;
-    }
-    res.status(204);
-    res.end('The user has been deleted');
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
-  }
+const deleteUser = async id => {
+  const result = await usersRepo.deleteUser(id);
+  if (result) await taskServices.assigneeTask(id);
+  return result;
 };
 
-module.exports = { getAll, getByID, postUser, putUser, delUser };
+module.exports = { getAll, getByID, postUser, putUser, deleteUser };
