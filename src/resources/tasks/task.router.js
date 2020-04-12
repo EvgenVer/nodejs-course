@@ -1,85 +1,59 @@
 const router = require('express').Router();
 const tasksService = require('./task.services');
 
-router.get('/', async (req, res) => {
+router.get('/', async (req, res, next) => {
   try {
-    const tasks = await tasksService.getAll();
-    if (!tasks) {
-      res.status(400);
-      res.end();
-      return;
-    }
-    // console.log(tasks);
+    const tasks = await tasksService.getAll(req.boardId);
+    if (!tasks) throw new Error(400);
     res.json(tasks);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.get('/:id', async (req, res) => {
+router.get('/:id', async (req, res, next) => {
   try {
     const task = await tasksService.getByID(req.params.id);
-    if (!task) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!task) throw new Error(404);
     res.json(task);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.post('/', async (req, res) => {
+router.post('/', async (req, res, next) => {
   try {
     const task = await tasksService.postTask(req.body, req.boardId);
-    if (!task) {
-      res.status(400);
-      res.end('Bad request');
-      return;
-    }
+    if (!task) throw new Error(400);
     res.json(task);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.put('/:id', async (req, res) => {
+router.put('/:id', async (req, res, next) => {
   try {
     const task = await tasksService.putTask(req.params.id, req.body);
-    if (!task) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!task) throw new Error(404);
     res.json(task);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete('/:id', async (req, res, next) => {
   try {
     const result = await tasksService.deleteTask(req.params.id);
-    if (!result) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!result) throw new Error(404);
     res.status(204);
     res.end('The task has been deleted');
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 

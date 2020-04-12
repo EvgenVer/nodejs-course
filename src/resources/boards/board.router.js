@@ -11,84 +11,58 @@ router.use(
   taskRouter
 );
 
-router.get('/', async (req, res) => {
+router.get('/', async (req, res, next) => {
   try {
     const boards = await boardsService.getAll();
-    if (!boards) {
-      res.status(400);
-      res.end();
-      return;
-    }
     res.json(boards);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.get('/:id', async (req, res) => {
+router.get('/:id', async (req, res, next) => {
   try {
     const board = await boardsService.getByID(req.params.id);
-    if (!board) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!board) throw new Error(404);
     res.json(board);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.post('/', async (req, res) => {
+router.post('/', async (req, res, next) => {
   try {
     const board = await boardsService.postBoard(req.body);
-    if (!board) {
-      res.status(400);
-      res.end('Bad request');
-      return;
-    }
+    if (!board) throw new Error(400);
     res.json(board);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.put('/:id', async (req, res) => {
+router.put('/:id', async (req, res, next) => {
   try {
     const board = await boardsService.putBoard(req.params.id, req.body);
-    if (!board) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!board) throw new Error(404);
     res.json(board);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete('/:id', async (req, res, next) => {
   try {
     const result = await boardsService.deleteBoard(req.params.id);
-    if (!result) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!result) throw new Error(404);
     res.status(204);
     res.end('The board has been deleted');
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 

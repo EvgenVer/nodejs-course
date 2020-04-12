@@ -1,7 +1,7 @@
 const Task = require('./task.model');
 const tasksRepo = require('./task.memory.repository');
 
-const getAll = async () => await tasksRepo.getAll();
+const getAll = async id => await tasksRepo.getAll(id);
 
 const getByID = async id => await tasksRepo.getByID(id);
 

@@ -1,6 +1,8 @@
 let tasksData = [];
 
-const getAll = () => tasksData;
+const getAll = id => {
+  return tasksData.filter(item => item.boardId === id);
+};
 
 const getByID = id => {
   return tasksData.find(task => task.id === id);

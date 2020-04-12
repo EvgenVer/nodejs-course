@@ -9,7 +9,8 @@ const getAll = async () => {
 
 const getByID = async id => {
   const user = await usersRepo.getByID(id);
-  return User.toResponse(user);
+  if (user) return User.toResponse(user);
+  return;
 };
 
 const postUser = async data => {

@@ -1,84 +1,58 @@
 const router = require('express').Router();
 const usersService = require('./user.service');
 
-router.get('/', async (req, res) => {
+router.get('/', async (req, res, next) => {
   try {
     const users = await usersService.getAll();
-    if (!users) {
-      res.status(400);
-      res.end();
-      return;
-    }
     res.json(users);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.get('/:id', async (req, res) => {
+router.get('/:id', async (req, res, next) => {
   try {
     const user = await usersService.getByID(req.params.id);
-    if (!user) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!user) throw new Error(404);
     res.json(user);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.post('/', async (req, res) => {
+router.post('/', async (req, res, next) => {
   try {
     const user = await usersService.postUser(req.body);
-    if (!user) {
-      res.status(400);
-      res.end('Bad request');
-      return;
-    }
+    if (!user) throw new Error(400);
     res.json(user);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.put('/:id', async (req, res) => {
+router.put('/:id', async (req, res, next) => {
   try {
     const user = await usersService.putUser(req.params.id, req.body);
-    if (!user) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!user) throw new Error(404);
     res.json(user);
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete('/:id', async (req, res, next) => {
   try {
     const result = await usersService.deleteUser(req.params.id);
-    if (!result) {
-      res.status(404);
-      res.end();
-      return;
-    }
+    if (!result) throw new Error(404);
     res.status(204);
     res.end('The user has been deleted');
   } catch (error) {
-    console.log(error);
-    res.status(500);
-    res.end('Smth went wrong');
+    next(error);
+    return;
   }
 });
 
