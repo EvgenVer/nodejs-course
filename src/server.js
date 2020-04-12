@@ -1,10 +1,5 @@
 const { PORT } = require('./common/config');
-const app = require('./app');
 const logger = require('./common/logger');
-
-app.listen(PORT, () =>
-  console.log(`App is running on http://localhost:${PORT}`)
-);
 
 process.on('uncaughtException', error => {
   logger.error(`Uncaught Exception: ${error.message}`);
@@ -13,3 +8,12 @@ process.on('uncaughtException', error => {
 process.on('unhandledRejection', reason => {
   logger.error(`Unhandled Rejection: ${reason.message}`);
 });
+
+const app = require('./app');
+
+// throw Error('Oops!');
+// Promise.reject(Error('Oops!'));
+
+app.listen(PORT, () =>
+  console.log(`App is running on http://localhost:${PORT}`)
+);
