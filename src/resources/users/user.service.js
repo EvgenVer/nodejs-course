@@ -1,5 +1,5 @@
 const User = require('./user.model');
-const usersRepo = require('./user.memory.repository');
+const usersRepo = require('./user.db.repository');
 const taskServices = require('../tasks/task.services');
 
 const getAll = async () => {
@@ -14,8 +14,8 @@ const getByID = async id => {
 };
 
 const postUser = async data => {
-  const user = new User(data);
-  await usersRepo.postUser(user);
+  // const user = new User(data);
+  const user = await usersRepo.postUser(data);
   return User.toResponse(user);
 };
 

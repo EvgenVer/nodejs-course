@@ -1,0 +1,476 @@
+error: Uncaught Exception: cb is not a function
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET url: /users; query parameters: {}; body: {}
+info: POST url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks; query parameters: {}; body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: GET url: /boards; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks; query parameters: {}; body: {}
+info: GET url: /users/335b0cfd-c4c1-42f9-a8be-c29fe673de46; query parameters: {}; body: {}
+info: GET url: /boards; query parameters: {}; body: {}
+info: DELETE url: /users/335b0cfd-c4c1-42f9-a8be-c29fe673de46; query parameters: {}; body: {}
+info: GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks; query parameters: {}; body: {}
+info: GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/de389438-70be-4e66-b717-a7953b0e43f7; query parameters: {}; body: {}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE url: /users/f8b3d58b-5b05-453e-b8fb-a24b46501296; query parameters: {}; body: {}
+info: POST url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks; query parameters: {}; body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /boards/3e85a27e-ead5-42dc-b78b-74189d2e8b2b; query parameters: {}; body: {}
+info: DELETE url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/3fca92d0-1c0a-468a-ae30-dae23f8d5227; query parameters: {}; body: {}
+info: PUT url: /users/673ea34e-addb-4958-b522-4d5fe67842b2; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"673ea34e-addb-4958-b522-4d5fe67842b2"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks; query parameters: {}; body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+info: GET url: /users/673ea34e-addb-4958-b522-4d5fe67842b2; query parameters: {}; body: {}
+info: PUT url: /boards/e0f30147-9cc5-4885-a4af-2d50d0d99839; query parameters: {}; body: {"id":"e0f30147-9cc5-4885-a4af-2d50d0d99839","title":"Autotest updated board","columns":[{"id":"4ddafc1a-1c96-4811-8b6c-29611b067aa3","title":"Backlog","order":1},{"id":"72d8d1ec-1dac-4c80-87f6-1f27d7e48f05","title":"Sprint","order":2}]}
+info: PUT url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/8d6a2791-6493-442b-9b40-cce35fdfe783; query parameters: {}; body: {"id":"8d6a2791-6493-442b-9b40-cce35fdfe783","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"4889bae4-a6d6-4473-ac71-aa9d1769c3db","columnId":null}
+info: DELETE url: /users/673ea34e-addb-4958-b522-4d5fe67842b2; query parameters: {}; body: {}
+info: GET url: /boards/e0f30147-9cc5-4885-a4af-2d50d0d99839; query parameters: {}; body: {}
+info: GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/8d6a2791-6493-442b-9b40-cce35fdfe783; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /boards/e0f30147-9cc5-4885-a4af-2d50d0d99839; query parameters: {}; body: {}
+info: GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/de389438-70be-4e66-b717-a7953b0e43f7; query parameters: {}; body: {}
+info: DELETE url: /users/96fb9273-fe71-43fc-9aa7-8e2f10f53aad; query parameters: {}; body: {}
+info: GET url: /boards; query parameters: {}; body: {}
+info: DELETE url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/de389438-70be-4e66-b717-a7953b0e43f7; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db; query parameters: {}; body: {}
+info: GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/de389438-70be-4e66-b717-a7953b0e43f7; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/de389438-70be-4e66-b717-a7953b0e43f7; query parameters: {}; body: {}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db; query parameters: {}; body: {}
+info: DELETE url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db; query parameters: {}; body: {}
+error: 404 Not Found DELETE url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db; query parameters: {}; body: {}
+info: POST url: /boards/bacc2210-3987-4b3f-b792-0fc5866d5947/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5a8402c7-acab-4970-a2fd-4231d742cef9","boardId":"bacc2210-3987-4b3f-b792-0fc5866d5947"}
+info: POST url: /boards/bacc2210-3987-4b3f-b792-0fc5866d5947/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5a8402c7-acab-4970-a2fd-4231d742cef9","boardId":"bacc2210-3987-4b3f-b792-0fc5866d5947"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: DELETE url: /users/5a8402c7-acab-4970-a2fd-4231d742cef9; query parameters: {}; body: {}
+info: POST url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5f386960-1b45-4f90-8c96-c527d364d91f","userId":null,"columnId":null}
+info: POST url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5f386960-1b45-4f90-8c96-c527d364d91f","userId":null,"columnId":null}
+info: POST url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks; query parameters: {}; body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5f386960-1b45-4f90-8c96-c527d364d91f","userId":null,"columnId":null}
+info: POST url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks; query parameters: {}; body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5f386960-1b45-4f90-8c96-c527d364d91f","userId":null,"columnId":null}
+info: POST url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks; query parameters: {}; body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5f386960-1b45-4f90-8c96-c527d364d91f","userId":null,"columnId":null}
+info: GET url: /boards/bacc2210-3987-4b3f-b792-0fc5866d5947/tasks/740abf6d-0b55-43b9-bf1e-ca9b7268681e; query parameters: {}; body: {}
+info: GET url: /boards/bacc2210-3987-4b3f-b792-0fc5866d5947/tasks/b5eb2724-0701-435b-b7ab-6f3cff081c34; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/e787b54a-1255-48a9-946e-d420c5f2ec4e; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/385d0191-c6f7-4097-92e5-fabc8645b512; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/6226db94-74d5-4cc7-9a56-339a477e2fc4; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/3c1582a1-1ceb-4f1b-8735-b70d2418243a; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/e17751fe-3e42-4a89-af6f-2604b6b1fe67; query parameters: {}; body: {}
+info: DELETE url: /boards/bacc2210-3987-4b3f-b792-0fc5866d5947/tasks/740abf6d-0b55-43b9-bf1e-ca9b7268681e; query parameters: {}; body: {}
+info: DELETE url: /boards/bacc2210-3987-4b3f-b792-0fc5866d5947/tasks/b5eb2724-0701-435b-b7ab-6f3cff081c34; query parameters: {}; body: {}
+info: DELETE url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f; query parameters: {}; body: {}
+info: DELETE url: /boards/bacc2210-3987-4b3f-b792-0fc5866d5947; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/385d0191-c6f7-4097-92e5-fabc8645b512; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/385d0191-c6f7-4097-92e5-fabc8645b512; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/6226db94-74d5-4cc7-9a56-339a477e2fc4; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/6226db94-74d5-4cc7-9a56-339a477e2fc4; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/3c1582a1-1ceb-4f1b-8735-b70d2418243a; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/3c1582a1-1ceb-4f1b-8735-b70d2418243a; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/e17751fe-3e42-4a89-af6f-2604b6b1fe67; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/e17751fe-3e42-4a89-af6f-2604b6b1fe67; query parameters: {}; body: {}
+info: GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/e787b54a-1255-48a9-946e-d420c5f2ec4e; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/e787b54a-1255-48a9-946e-d420c5f2ec4e; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/c7515f9d-a6cd-447d-b6af-7d88fc1e61c5; query parameters: {}; body: {}
+info: DELETE url: /users/c7515f9d-a6cd-447d-b6af-7d88fc1e61c5; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/85060d20-8c2b-4bcf-b3eb-e005f4157d4f; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/608de6a1-c29a-4b00-b5df-9ff1f11aa206; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"608de6a1-c29a-4b00-b5df-9ff1f11aa206"}
+info: GET url: /users/608de6a1-c29a-4b00-b5df-9ff1f11aa206; query parameters: {}; body: {}
+info: DELETE url: /users/608de6a1-c29a-4b00-b5df-9ff1f11aa206; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/dd42f118-bc00-4248-b96b-b90f851fc920; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/66a11435-12f0-4164-8586-514cf5494b2a/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"d7011f99-d26e-4175-9219-ed32d168eb5b","boardId":"66a11435-12f0-4164-8586-514cf5494b2a"}
+info: POST url: /boards/66a11435-12f0-4164-8586-514cf5494b2a/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"d7011f99-d26e-4175-9219-ed32d168eb5b","boardId":"66a11435-12f0-4164-8586-514cf5494b2a"}
+info: DELETE url: /users/d7011f99-d26e-4175-9219-ed32d168eb5b; query parameters: {}; body: {}
+info: GET url: /boards/66a11435-12f0-4164-8586-514cf5494b2a/tasks/3e1a3ad7-bde8-430e-a242-134340b28d06; query parameters: {}; body: {}
+info: GET url: /boards/66a11435-12f0-4164-8586-514cf5494b2a/tasks/fb9f21d2-7985-43d1-b5e8-a8588d340058; query parameters: {}; body: {}
+info: DELETE url: /boards/66a11435-12f0-4164-8586-514cf5494b2a/tasks/3e1a3ad7-bde8-430e-a242-134340b28d06; query parameters: {}; body: {}
+info: DELETE url: /boards/66a11435-12f0-4164-8586-514cf5494b2a/tasks/fb9f21d2-7985-43d1-b5e8-a8588d340058; query parameters: {}; body: {}
+info: DELETE url: /boards/66a11435-12f0-4164-8586-514cf5494b2a; query parameters: {}; body: {}
+error: Uncaught Exception: Cannot find module './user.db.repoditory'
+Require stack:
+- F:\RSschool\LERNNODE\nodejs-course\src\resources\users\user.service.js
+- F:\RSschool\LERNNODE\nodejs-course\src\resources\users\user.router.js
+- F:\RSschool\LERNNODE\nodejs-course\src\app.js
+- F:\RSschool\LERNNODE\nodejs-course\src\server.js
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: Uncaught Exception: User is not defined
+error: Uncaught Exception: User is not defined
+error: Uncaught Exception: mongoose is not defined
+error: Uncaught Exception: mongoose is not defined
+error: Uncaught Exception: User is not defined
+error: Uncaught Exception: User is not defined
+error: Unhandled Rejection: E11000 duplicate key error collection: rest.users index: _id_ dup key: { _id: "4dc14288-da02-4062-8f7a-1ed5f4427a0a" }
+error: Unhandled Rejection: E11000 duplicate key error collection: rest.users index: _id_ dup key: { _id: "6bdfafd8-7dab-4f7e-9225-c68259b9e232" }
+error: Unhandled Rejection: E11000 duplicate key error collection: rest.users index: _id_ dup key: { _id: "41d63a61-0c67-41e1-88be-da5108d58f3f" }
+error: Unhandled Rejection: E11000 duplicate key error collection: rest.users index: _id_ dup key: { _id: "ca2e38be-14ef-4e0c-8818-cf301aee1160" }
+error: Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]
+error: Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]
+error: Unhandled Rejection: Cannot create collection rest.users - database is in the process of being dropped.
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/46c2cc3f-7f0a-411a-9ba8-3d26b2581760/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"46c2cc3f-7f0a-411a-9ba8-3d26b2581760"}
+info: POST url: /boards/46c2cc3f-7f0a-411a-9ba8-3d26b2581760/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"46c2cc3f-7f0a-411a-9ba8-3d26b2581760"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/f9670e10-567d-45d1-bf55-a5aeabfb80c5; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users/f9670e10-567d-45d1-bf55-a5aeabfb80c5; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/47bc59f5-8486-4d18-a005-787ab8a89fa2; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/47bc59f5-8486-4d18-a005-787ab8a89fa2; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/db2e83c0-4195-4ac8-816f-9e443160bdc2; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"db2e83c0-4195-4ac8-816f-9e443160bdc2"}
+error: 500 Server Error PUT url: /users/db2e83c0-4195-4ac8-816f-9e443160bdc2; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"db2e83c0-4195-4ac8-816f-9e443160bdc2"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/efc71ecf-6f14-45ab-8366-857c23b1308c; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/efc71ecf-6f14-45ab-8366-857c23b1308c; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/88391373-894d-4ce9-8868-46ddac7ab8f2/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"eb713ad6-9405-4906-8b8f-888d775dd9d8","boardId":"88391373-894d-4ce9-8868-46ddac7ab8f2"}
+info: POST url: /boards/88391373-894d-4ce9-8868-46ddac7ab8f2/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"eb713ad6-9405-4906-8b8f-888d775dd9d8","boardId":"88391373-894d-4ce9-8868-46ddac7ab8f2"}
+info: DELETE url: /users/eb713ad6-9405-4906-8b8f-888d775dd9d8; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/eb713ad6-9405-4906-8b8f-888d775dd9d8; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/91fb4c92-080d-4493-b4f6-7b37919b3379; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users/91fb4c92-080d-4493-b4f6-7b37919b3379; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/e545b1eb-86cf-450d-a826-4c00e69cda4d; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/e545b1eb-86cf-450d-a826-4c00e69cda4d; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/a07e92dc-c3f0-4b08-ad6c-a925d084f413; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"a07e92dc-c3f0-4b08-ad6c-a925d084f413"}
+error: 500 Server Error PUT url: /users/a07e92dc-c3f0-4b08-ad6c-a925d084f413; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"a07e92dc-c3f0-4b08-ad6c-a925d084f413"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/be2351c4-9ede-4660-a5ad-d86b0b464384; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/be2351c4-9ede-4660-a5ad-d86b0b464384; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/1579c6af-dd89-440e-b3b3-1b55697ce43d/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"6510397a-c4bb-41bf-9bd3-7f76c30035ea","boardId":"1579c6af-dd89-440e-b3b3-1b55697ce43d"}
+info: POST url: /boards/1579c6af-dd89-440e-b3b3-1b55697ce43d/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"6510397a-c4bb-41bf-9bd3-7f76c30035ea","boardId":"1579c6af-dd89-440e-b3b3-1b55697ce43d"}
+info: DELETE url: /users/6510397a-c4bb-41bf-9bd3-7f76c30035ea; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/6510397a-c4bb-41bf-9bd3-7f76c30035ea; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/e27d8b00-4368-4fdc-81ea-48505733ad2b; query parameters: {}; body: {}
+info: DELETE url: /users/e27d8b00-4368-4fdc-81ea-48505733ad2b; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/e27d8b00-4368-4fdc-81ea-48505733ad2b; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/68c13aba-8326-4e2c-b243-bdc82a3ad941; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/68c13aba-8326-4e2c-b243-bdc82a3ad941; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/caefc810-23f2-444f-a629-84d577a58b4e; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"caefc810-23f2-444f-a629-84d577a58b4e"}
+error: 500 Server Error PUT url: /users/caefc810-23f2-444f-a629-84d577a58b4e; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"caefc810-23f2-444f-a629-84d577a58b4e"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/02814403-c770-476a-8c5c-c275adfd307f; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/02814403-c770-476a-8c5c-c275adfd307f; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/903c3e57-3b81-40dc-9c2d-c13ec3e51ab8/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"2314c303-8925-40cb-b066-0c67373c08d6","boardId":"903c3e57-3b81-40dc-9c2d-c13ec3e51ab8"}
+info: POST url: /boards/903c3e57-3b81-40dc-9c2d-c13ec3e51ab8/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"2314c303-8925-40cb-b066-0c67373c08d6","boardId":"903c3e57-3b81-40dc-9c2d-c13ec3e51ab8"}
+info: DELETE url: /users/2314c303-8925-40cb-b066-0c67373c08d6; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/2314c303-8925-40cb-b066-0c67373c08d6; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/c420cc8a-2324-4722-9f30-6d686203478e; query parameters: {}; body: {}
+info: DELETE url: /users/c420cc8a-2324-4722-9f30-6d686203478e; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/c420cc8a-2324-4722-9f30-6d686203478e; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/201c02be-45aa-4511-a61d-ba3340855027; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/201c02be-45aa-4511-a61d-ba3340855027; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/608f24b1-2220-43f6-9f8f-ac7c1d619f26; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"608f24b1-2220-43f6-9f8f-ac7c1d619f26"}
+error: 500 Server Error PUT url: /users/608f24b1-2220-43f6-9f8f-ac7c1d619f26; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"608f24b1-2220-43f6-9f8f-ac7c1d619f26"}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/35d098d9-5fc9-4d01-832b-caa57a2a3051; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/35d098d9-5fc9-4d01-832b-caa57a2a3051; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/a5d055c8-46c2-4709-8155-e5626a52c7ce/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"541f4689-25b5-45e2-9c80-dbb202f02a5f","boardId":"a5d055c8-46c2-4709-8155-e5626a52c7ce"}
+info: POST url: /boards/a5d055c8-46c2-4709-8155-e5626a52c7ce/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"541f4689-25b5-45e2-9c80-dbb202f02a5f","boardId":"a5d055c8-46c2-4709-8155-e5626a52c7ce"}
+info: DELETE url: /users/541f4689-25b5-45e2-9c80-dbb202f02a5f; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/541f4689-25b5-45e2-9c80-dbb202f02a5f; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/4b008f25-ffbc-4cee-a294-00bf214532e2; query parameters: {}; body: {}
+info: DELETE url: /users/4b008f25-ffbc-4cee-a294-00bf214532e2; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/4b008f25-ffbc-4cee-a294-00bf214532e2; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/f3e7865e-0afc-4c8b-8ea8-31a4fb2e1210; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/f3e7865e-0afc-4c8b-8ea8-31a4fb2e1210; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/e176fe06-8aaf-4d79-8955-9e65d1f3b86c; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"e176fe06-8aaf-4d79-8955-9e65d1f3b86c"}
+info: GET url: /users/e176fe06-8aaf-4d79-8955-9e65d1f3b86c; query parameters: {}; body: {}
+info: DELETE url: /users/e176fe06-8aaf-4d79-8955-9e65d1f3b86c; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/e176fe06-8aaf-4d79-8955-9e65d1f3b86c; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/b10c7ae0-5de8-4746-8bad-d928a03618da; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/b10c7ae0-5de8-4746-8bad-d928a03618da; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/a1263971-3142-46b8-b9c1-4bc7e5ff50a5/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"4d946970-832f-46d1-8a4f-02c584723cc3","boardId":"a1263971-3142-46b8-b9c1-4bc7e5ff50a5"}
+info: POST url: /boards/a1263971-3142-46b8-b9c1-4bc7e5ff50a5/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"4d946970-832f-46d1-8a4f-02c584723cc3","boardId":"a1263971-3142-46b8-b9c1-4bc7e5ff50a5"}
+info: DELETE url: /users/4d946970-832f-46d1-8a4f-02c584723cc3; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/4d946970-832f-46d1-8a4f-02c584723cc3; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/76136085-f3cb-4e90-a507-985fff42cae3; query parameters: {}; body: {}
+info: DELETE url: /users/76136085-f3cb-4e90-a507-985fff42cae3; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/3e5a3327-9ec2-487c-8544-c538421a2ebd; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/49ce132b-dfa3-447f-a3c9-6c55cac38d53; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"49ce132b-dfa3-447f-a3c9-6c55cac38d53"}
+info: GET url: /users/49ce132b-dfa3-447f-a3c9-6c55cac38d53; query parameters: {}; body: {}
+info: DELETE url: /users/49ce132b-dfa3-447f-a3c9-6c55cac38d53; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/705b385a-caef-47d0-8e0b-885bc1cefa1c; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/58c87892-fca2-4ae8-9a73-c4d60b20902b/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"8e81182a-5066-4ac1-b4f2-df8eea4b3e3c","boardId":"58c87892-fca2-4ae8-9a73-c4d60b20902b"}
+info: POST url: /boards/58c87892-fca2-4ae8-9a73-c4d60b20902b/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"8e81182a-5066-4ac1-b4f2-df8eea4b3e3c","boardId":"58c87892-fca2-4ae8-9a73-c4d60b20902b"}
+info: DELETE url: /users/8e81182a-5066-4ac1-b4f2-df8eea4b3e3c; query parameters: {}; body: {}
+info: GET url: /boards/58c87892-fca2-4ae8-9a73-c4d60b20902b/tasks/34d55b15-406d-4642-a06c-7813d379a408; query parameters: {}; body: {}
+info: GET url: /boards/58c87892-fca2-4ae8-9a73-c4d60b20902b/tasks/94904a82-a2c5-49d2-a9f3-7c3ee46e74b1; query parameters: {}; body: {}
+info: DELETE url: /boards/58c87892-fca2-4ae8-9a73-c4d60b20902b/tasks/34d55b15-406d-4642-a06c-7813d379a408; query parameters: {}; body: {}
+info: DELETE url: /boards/58c87892-fca2-4ae8-9a73-c4d60b20902b/tasks/94904a82-a2c5-49d2-a9f3-7c3ee46e74b1; query parameters: {}; body: {}
+info: DELETE url: /boards/58c87892-fca2-4ae8-9a73-c4d60b20902b; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/3d305e80-452e-4fb2-add7-f3a0d8b972a7; query parameters: {}; body: {}
+info: DELETE url: /users/3d305e80-452e-4fb2-add7-f3a0d8b972a7; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/26e57ced-3c5e-4e20-af4f-38b1e038a816; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/ef86bab5-a31b-46cd-b9a1-39fd2c6e77bc; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"ef86bab5-a31b-46cd-b9a1-39fd2c6e77bc"}
+info: GET url: /users/ef86bab5-a31b-46cd-b9a1-39fd2c6e77bc; query parameters: {}; body: {}
+info: DELETE url: /users/ef86bab5-a31b-46cd-b9a1-39fd2c6e77bc; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/9ab67014-c487-4c18-a15f-72bf0f45c352; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/30b40aeb-0e8d-4025-8b0b-caa1c67cb140/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"d6faed3e-65b1-47c8-8cd7-a25cd0e301a7","boardId":"30b40aeb-0e8d-4025-8b0b-caa1c67cb140"}
+info: POST url: /boards/30b40aeb-0e8d-4025-8b0b-caa1c67cb140/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"d6faed3e-65b1-47c8-8cd7-a25cd0e301a7","boardId":"30b40aeb-0e8d-4025-8b0b-caa1c67cb140"}
+info: DELETE url: /users/d6faed3e-65b1-47c8-8cd7-a25cd0e301a7; query parameters: {}; body: {}
+info: GET url: /boards/30b40aeb-0e8d-4025-8b0b-caa1c67cb140/tasks/5ae10def-6f2c-432f-aaac-aac1795d8add; query parameters: {}; body: {}
+info: GET url: /boards/30b40aeb-0e8d-4025-8b0b-caa1c67cb140/tasks/3830c070-da8a-4d7a-a260-b1751874fb9d; query parameters: {}; body: {}
+info: DELETE url: /boards/30b40aeb-0e8d-4025-8b0b-caa1c67cb140/tasks/5ae10def-6f2c-432f-aaac-aac1795d8add; query parameters: {}; body: {}
+info: DELETE url: /boards/30b40aeb-0e8d-4025-8b0b-caa1c67cb140/tasks/3830c070-da8a-4d7a-a260-b1751874fb9d; query parameters: {}; body: {}
+info: DELETE url: /boards/30b40aeb-0e8d-4025-8b0b-caa1c67cb140; query parameters: {}; body: {}
+info: GET url: /users; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: GET url: /users/8c63648a-031b-4a4f-be22-e723aaf473fc; query parameters: {}; body: {}
+info: DELETE url: /users/8c63648a-031b-4a4f-be22-e723aaf473fc; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/dd9ec719-bdab-4708-96bb-91825f203d9f; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: PUT url: /users/26e1af05-e030-4f5a-b541-b06fe6711a12; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"26e1af05-e030-4f5a-b541-b06fe6711a12"}
+info: GET url: /users/26e1af05-e030-4f5a-b541-b06fe6711a12; query parameters: {}; body: {}
+info: DELETE url: /users/26e1af05-e030-4f5a-b541-b06fe6711a12; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: DELETE url: /users/24ae70d2-023f-48cd-b69b-72c6af553f8e; query parameters: {}; body: {}
+info: POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+info: POST url: /boards; query parameters: {}; body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+info: POST url: /boards/276af670-c775-41fc-a284-64db46465e15/tasks; query parameters: {}; body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"17314426-3cc9-493d-b1c1-4459e1b1b300","boardId":"276af670-c775-41fc-a284-64db46465e15"}
+info: POST url: /boards/276af670-c775-41fc-a284-64db46465e15/tasks; query parameters: {}; body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"17314426-3cc9-493d-b1c1-4459e1b1b300","boardId":"276af670-c775-41fc-a284-64db46465e15"}
+info: DELETE url: /users/17314426-3cc9-493d-b1c1-4459e1b1b300; query parameters: {}; body: {}
+info: GET url: /boards/276af670-c775-41fc-a284-64db46465e15/tasks/172cf419-df0f-4a60-badd-24e9ba213966; query parameters: {}; body: {}
+info: GET url: /boards/276af670-c775-41fc-a284-64db46465e15/tasks/0455d5b6-cd49-4608-83e7-e2b1da7b6e80; query parameters: {}; body: {}
+info: DELETE url: /boards/276af670-c775-41fc-a284-64db46465e15/tasks/172cf419-df0f-4a60-badd-24e9ba213966; query parameters: {}; body: {}
+info: DELETE url: /boards/276af670-c775-41fc-a284-64db46465e15/tasks/0455d5b6-cd49-4608-83e7-e2b1da7b6e80; query parameters: {}; body: {}
+info: DELETE url: /boards/276af670-c775-41fc-a284-64db46465e15; query parameters: {}; body: {}

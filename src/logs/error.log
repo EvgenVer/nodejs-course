@@ -1,0 +1,147 @@
+error: Uncaught Exception: cb is not a function
+error: 404 Not Found GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db/tasks/de389438-70be-4e66-b717-a7953b0e43f7; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db; query parameters: {}; body: {}
+error: 404 Not Found DELETE url: /boards/4889bae4-a6d6-4473-ac71-aa9d1769c3db; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/385d0191-c6f7-4097-92e5-fabc8645b512; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/6226db94-74d5-4cc7-9a56-339a477e2fc4; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/3c1582a1-1ceb-4f1b-8735-b70d2418243a; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/e17751fe-3e42-4a89-af6f-2604b6b1fe67; query parameters: {}; body: {}
+error: 404 Not Found GET url: /boards/5f386960-1b45-4f90-8c96-c527d364d91f/tasks/e787b54a-1255-48a9-946e-d420c5f2ec4e; query parameters: {}; body: {}
+error: Uncaught Exception: Cannot find module './user.db.repoditory'
+Require stack:
+- F:\RSschool\LERNNODE\nodejs-course\src\resources\users\user.service.js
+- F:\RSschool\LERNNODE\nodejs-course\src\resources\users\user.router.js
+- F:\RSschool\LERNNODE\nodejs-course\src\app.js
+- F:\RSschool\LERNNODE\nodejs-course\src\server.js
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: Uncaught Exception: User is not defined
+error: Uncaught Exception: User is not defined
+error: Uncaught Exception: mongoose is not defined
+error: Uncaught Exception: mongoose is not defined
+error: Uncaught Exception: User is not defined
+error: Uncaught Exception: User is not defined
+error: Unhandled Rejection: E11000 duplicate key error collection: rest.users index: _id_ dup key: { _id: "4dc14288-da02-4062-8f7a-1ed5f4427a0a" }
+error: Unhandled Rejection: E11000 duplicate key error collection: rest.users index: _id_ dup key: { _id: "6bdfafd8-7dab-4f7e-9225-c68259b9e232" }
+error: Unhandled Rejection: E11000 duplicate key error collection: rest.users index: _id_ dup key: { _id: "41d63a61-0c67-41e1-88be-da5108d58f3f" }
+error: Unhandled Rejection: E11000 duplicate key error collection: rest.users index: _id_ dup key: { _id: "ca2e38be-14ef-4e0c-8818-cf301aee1160" }
+error: Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]
+error: Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]
+error: Unhandled Rejection: Cannot create collection rest.users - database is in the process of being dropped.
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error PUT url: /users/undefined; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error DELETE url: /users/undefined; query parameters: {}; body: {}
+error: 400 Bad Request POST url: /users; query parameters: {}; body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users/f9670e10-567d-45d1-bf55-a5aeabfb80c5; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/47bc59f5-8486-4d18-a005-787ab8a89fa2; query parameters: {}; body: {}
+error: 500 Server Error PUT url: /users/db2e83c0-4195-4ac8-816f-9e443160bdc2; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"db2e83c0-4195-4ac8-816f-9e443160bdc2"}
+error: 500 Server Error DELETE url: /users/efc71ecf-6f14-45ab-8366-857c23b1308c; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/eb713ad6-9405-4906-8b8f-888d775dd9d8; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users; query parameters: {}; body: {}
+error: 500 Server Error GET url: /users/91fb4c92-080d-4493-b4f6-7b37919b3379; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/e545b1eb-86cf-450d-a826-4c00e69cda4d; query parameters: {}; body: {}
+error: 500 Server Error PUT url: /users/a07e92dc-c3f0-4b08-ad6c-a925d084f413; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"a07e92dc-c3f0-4b08-ad6c-a925d084f413"}
+error: 500 Server Error DELETE url: /users/be2351c4-9ede-4660-a5ad-d86b0b464384; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/6510397a-c4bb-41bf-9bd3-7f76c30035ea; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/e27d8b00-4368-4fdc-81ea-48505733ad2b; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/68c13aba-8326-4e2c-b243-bdc82a3ad941; query parameters: {}; body: {}
+error: 500 Server Error PUT url: /users/caefc810-23f2-444f-a629-84d577a58b4e; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"caefc810-23f2-444f-a629-84d577a58b4e"}
+error: 500 Server Error DELETE url: /users/02814403-c770-476a-8c5c-c275adfd307f; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/2314c303-8925-40cb-b066-0c67373c08d6; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/c420cc8a-2324-4722-9f30-6d686203478e; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/201c02be-45aa-4511-a61d-ba3340855027; query parameters: {}; body: {}
+error: 500 Server Error PUT url: /users/608f24b1-2220-43f6-9f8f-ac7c1d619f26; query parameters: {}; body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"608f24b1-2220-43f6-9f8f-ac7c1d619f26"}
+error: 500 Server Error DELETE url: /users/35d098d9-5fc9-4d01-832b-caa57a2a3051; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/541f4689-25b5-45e2-9c80-dbb202f02a5f; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/4b008f25-ffbc-4cee-a294-00bf214532e2; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/f3e7865e-0afc-4c8b-8ea8-31a4fb2e1210; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/e176fe06-8aaf-4d79-8955-9e65d1f3b86c; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/b10c7ae0-5de8-4746-8bad-d928a03618da; query parameters: {}; body: {}
+error: 500 Server Error DELETE url: /users/4d946970-832f-46d1-8a4f-02c584723cc3; query parameters: {}; body: {}
