@@ -14,7 +14,6 @@ const getByID = async id => {
 };
 
 const postUser = async data => {
-  // const user = new User(data);
   const user = await usersRepo.postUser(data);
   return User.toResponse(user);
 };

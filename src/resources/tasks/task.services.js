@@ -1,16 +1,12 @@
 const Task = require('./task.model');
-const tasksRepo = require('./task.memory.repository');
+const tasksRepo = require('./task.db.repository');
 
 const getAll = async id => await tasksRepo.getAll(id);
 
 const getByID = async id => await tasksRepo.getByID(id);
 
-const postTask = async (data, boardId) => {
-  const task = new Task(data);
-  task.boardId = boardId;
-  await tasksRepo.postTask(task);
-  return task;
-};
+const postTask = async (data, boardId) =>
+  await tasksRepo.postTask(data, boardId);
 
 const putTask = async (id, obj) => await tasksRepo.putTask(id, obj);
 
