@@ -2,12 +2,12 @@ const winston = require('winston');
 
 const logger = winston.createLogger({
   transports: [
-    /* new winston.transports.Console({
+    new winston.transports.Console({
       format: winston.format.combine(
         winston.format.colorize(),
         winston.format.cli()
       )
-    }), */
+    }),
     new winston.transports.File({
       filename: './src/logs/access.log',
       level: 'info',
