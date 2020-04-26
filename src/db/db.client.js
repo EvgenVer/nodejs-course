@@ -1,9 +1,6 @@
 const mongoose = require('mongoose');
 const { MONGO_CONNECTION_STRING } = require('../common/config');
-// const User = require('../resources/users/user.model');
 const userService = require('../resources/users/user.service');
-
-// const admin = new User({ name: 'admin', login: 'admin', password: 'admin' });
 
 const connectToDB = cb => {
   mongoose.connect(MONGO_CONNECTION_STRING, {
@@ -20,7 +17,6 @@ const connectToDB = cb => {
       login: 'admin',
       password: 'admin'
     });
-    // admin.save();
     cb();
   });
 };
