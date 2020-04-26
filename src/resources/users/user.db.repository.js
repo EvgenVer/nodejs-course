@@ -24,4 +24,11 @@ const deleteUser = async id => {
   return (await User.deleteOne({ _id: id })).deletedCount;
 };
 
-module.exports = { getAll, getByID, postUser, putUser, deleteUser };
+module.exports = {
+  getAll,
+  getByID,
+  postUser,
+  putUser,
+  deleteUser,
+  getUserByProps
+};

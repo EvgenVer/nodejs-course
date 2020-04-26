@@ -3,6 +3,8 @@ const {
   INTERNAL_SERVER_ERROR,
   BAD_REQUEST,
   NOT_FOUND,
+  UNAUTHORIZED,
+  FORBIDDEN,
   getStatusText
 } = require('http-status-codes');
 
@@ -14,6 +16,12 @@ const errorHandler = (err, req, res, next) => {
       break;
     case NOT_FOUND:
       status = NOT_FOUND;
+      break;
+    case UNAUTHORIZED:
+      status = UNAUTHORIZED;
+      break;
+    case FORBIDDEN:
+      status = FORBIDDEN;
       break;
     default:
       status = INTERNAL_SERVER_ERROR;
